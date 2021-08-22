@@ -4,12 +4,14 @@ function Banner() {
   return (
     <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
       <Image
-        src="https://links.papareact.com/0fm"
+        src="https://images.unsplash.com/photo-1627564715658-0ccd51457c9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
         layout="fill"
         objectFit="cover"
       />
       <div className="absolute top-1/2 w-full text-center">
-        <p className="text-sm sm:text-lg">Not sure where to go? Perfect</p>
+        <p className="text-white text-sm sm:text-lg">
+          Not sure where to go? Perfect
+        </p>
 
         <button
           className="text-purple-500 bg-white px-10 py-4
